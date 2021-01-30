@@ -68,6 +68,36 @@
         font-size: 24px;
         margin: 0;
       }
+
+      .portofolio h2 {
+        font-size: 36px;
+        text-align: center;
+      }
+
+      .portofolio figure {
+        position: relative;
+        margin: 0;
+        overflow: hidden;
+        width: auto;
+        height: 280px;
+        border-radius: 20px;
+      }
+
+      .portofolio img {
+        width: auto;
+        height: 280px;
+      }
+
+      .flex-grid {
+        display: flex;
+        justify-content: center;
+      }
+
+      .flex-grid-item {
+        flex-shrink: 1;
+        margin: 15px;
+        flex-basis: 280px;
+      }
     </style>
   </head>
   <body>
@@ -75,8 +105,8 @@
       <div class="brand-title">Ian Maulana</div>
 
       <div class="menu">
-        <a class="item-menu" href="#">About</a>
-        <a class="item-menu" href="#">Contact</a>
+        <a class="item-menu" href="contact.html">About</a>
+        <a class="item-menu" href="contact.html">Contact</a>
       </div>
     </nav>
 
@@ -91,5 +121,61 @@
       <h1 class="header-title">Ian Maulana</h1>
       <p class="header-description">Frontend Web Enginer - Web Desainer</p>
     </header>
+
+    <section class="portofolio">
+      <h2>Portofolio</h2>
+
+      <div class="flex-grid">
+        <div class="flex-grid-item">
+          <a href="contact.html">
+            <figure>
+              <img src="assets/images/cabin.png" alt="cabin" />
+            </figure>
+          </a>
+        </div>
+
+        <div class="flex-grid-item">
+          <a href="contact.html">
+            <figure>
+              <img src="assets/images/cake.png" alt="cabin" />
+            </figure>
+          </a>
+        </div>
+
+        <div class="flex-grid-item">
+          <a href="contact.html">
+            <figure>
+              <img src="assets/images/circus.png" alt="cabin" />
+            </figure>
+          </a>
+        </div>
+      </div>
+
+      <div class="flex-grid">
+        <div class="flex-grid-item">
+          <a href="contact.html">
+            <figure>
+              <img src="assets/images/game.png" alt="cabin" />
+            </figure>
+          </a>
+        </div>
+
+        <div class="flex-grid-item">
+          <a href="contact.html">
+            <figure>
+              <img src="assets/images/safe.png" alt="cabin" />
+            </figure>
+          </a>
+        </div>
+
+        <div class="flex-grid-item">
+          <a href="contact.html">
+            <figure>
+              <img src="assets/images/submarine.png" alt="cabin" />
+            </figure>
+          </a>
+        </div>
+      </div>
+    </section>
   </body>
 </html>
